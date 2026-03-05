@@ -1,0 +1,17 @@
+{
+  "executionEnvironments": [
+    {
+      "root": "backend",
+      "extraPaths": ["."]
+    },
+    {
+      "root": "streamlit_app",
+      "extraPaths": ["."]
+    }
+  ],
+  "pythonVersion": "3.13",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportOptionalMemberAccess": "warning",
+  "pythonPlatform": "Windows"
+}

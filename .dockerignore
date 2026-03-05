@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+.env
+.git
+.github
+node_modules
+*.db
+uploads/*
+processed_docs/*
+.venv
+venv

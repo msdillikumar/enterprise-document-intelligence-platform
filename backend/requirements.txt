@@ -1,0 +1,41 @@
+# --- Core Backend ---
+fastapi>=0.115.0
+uvicorn>=0.30.6
+python-multipart>=0.0.9
+pydantic>=2.9.2
+jinja2>=3.1.4
+aiofiles>=24.1.0
+python-dotenv>=1.0.0
+
+# --- Database ---
+sqlalchemy>=2.0.35
+aiosqlite>=0.20.0
+asyncpg>=0.30.0
+
+# --- OCR ---
+pytesseract>=0.3.13
+Pillow>=10.4.0
+pdf2image>=1.17.0
+PyMuPDF>=1.24.0
+
+# --- Encryption ---
+cryptography>=43.0.1
+
+# --- Auth ---
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.0.0
+
+# --- LLM Extraction ---
+requests>=2.31.0
+# llama-cpp-python>=0.2.0  # Optional: uncomment if local LLM needed
+
+# --- Explainability & Anomaly ---
+numpy>=1.26.0
+
+# --- Frontend ---
+streamlit>=1.38.0
+plotly>=5.22.0
+
+# --- Redaction ---
+presidio-analyzer>=2.2.355
+presidio-anonymizer>=2.2.355
